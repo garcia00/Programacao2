@@ -14,9 +14,9 @@ public class Mago extends Personagem{
     
  
     private int magia = random.nextInt(5) + 1;
-    private int feitico = random.nextInt(7) + 2;
+    private final int feitico = random.nextInt(7) + 2;
     
-    public void  atacar(int fmagia){
+    public void  atacar(int magia){
         this.magia += this.feitico;
     }
     

@@ -11,17 +11,28 @@ package jogo;
  */
 public class Batalha extends Personagem{
     
-    int vidaUs;
+    int vidaUs = 100;
     int vidaPc = 100;
     int rounds = 3;
+    
+
     
     public void imprimeVida(int vidaUS, int vidaPc){
         
         System.out.println("Nivel de vida Usuario" + vidaUs);
         System.out.println("Nivel de vida Maquina" + vidaPc);
+        
+  
     }
     
+    public void exebatle(){
+        
+        while ((rounds < 3) || (vidaPc <= 0)|| (vidaUs <= 0)){
     
+    
+    
+}
+    }
     
     
 }

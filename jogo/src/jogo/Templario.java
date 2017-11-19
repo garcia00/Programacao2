@@ -11,8 +11,8 @@ import java.util.Random;
 public class Templario extends Personagem{
     
     Random random = new Random();
+   
     
- 
     private int aurea = random.nextInt(6) + 1;
     private int talento = random.nextInt(4) + 1;
     
